@@ -12,9 +12,9 @@
 
 <div class="" style="background-color: #ADB5B8">
 	<div
-		class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center min-h-[50vh]"
+		class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center min-h-[50vh]"
 	>
-		<div class="p-4 order-last sm:order-none">
+		<div class="p-4 xl:p-8 order-last sm:order-none">
 			<h1 class="font-display text-xl sm:text-3xl mb-4 text-orange-800">
 				Education
 			</h1>
@@ -22,11 +22,12 @@
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sequi
 				fugit unde tempora sit asperiores?
 			</p>
-			<button
-				class="bg-lime-400 text-cyan-800 px-8 py-3 font-bold text-lg rounded-xl shadow-md"
+			<a
+				class="inline-block bg-lime-400 text-cyan-800 px-8 py-3 font-bold text-lg rounded-xl shadow-md"
+				href="/course"
 			>
-				Enter
-			</button>
+				Read
+			</a>
 		</div>
 		<div class="md:col-span-2">
 			<img
@@ -38,7 +39,9 @@
 	</div>
 </div>
 
-<div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 my-8 gap-4 p-4">
+<div
+	class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 my-8 gap-4 xl:gap-8 p-4 xl:p-8"
+>
 	<div class="">
 		<img
 			class="rounded-3xl max-h-96 md:max-h-[540px] w-full object-cover object-center block mb-4"
@@ -73,7 +76,7 @@
 
 <div class="my-8" style="background-color: #9a3412">
 	<div
-		class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4"
+		class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 xl:gap-8 p-4 xl:p-8"
 	>
 		{#each data.steps as item}
 			<div class="rounded-3xl bg-white p-4">
@@ -87,7 +90,7 @@
 </div>
 
 <div
-	class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-8 gap-4 p-4"
+	class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-8 gap-4 xl:gap-8 p-4 xl:p-8"
 >
 	<div class="md:col-span-2">
 		<img
@@ -104,20 +107,23 @@
 			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint magni amet
 			praesentium est, quibusdam veritatis.
 		</p>
-		<button
-			class="bg-lime-400 text-cyan-800 px-8 py-3 font-bold text-lg rounded-xl shadow-md"
+		<a
+			class="inline-block bg-lime-400 text-cyan-800 px-8 py-3 font-bold text-lg rounded-xl shadow-md"
+			href="/register"
 		>
 			Enter
-		</button>
+		</a>
 	</div>
 </div>
 
-<div class="pb-8" style="background-color: #A39C92">
-	<div class="max-w-5xl mx-auto">
+<div class="pb-8 xl:pb-16" style="background-color: #A39C92">
+	<div class="max-w-7xl mx-auto">
 		<h2 class="font-display text-2xl px-4 pt-8 mb-4 text-center">
 			Lorem ipsum dolor
 		</h2>
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 grid-flow-row mb-8">
+		<div
+			class="grid grid-cols-1 md:grid-cols-2 gap-4 xl:gap-8 p-4 xl:p-8 grid-flow-row mb-8"
+		>
 			{#each data.concepts as item}
 				<div
 					class="rounded-3xl bg-white p-4 {item.highlight

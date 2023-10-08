@@ -27,7 +27,7 @@
 				{item.text}
 			</a>
 		{/each}
-		<button class="block sm:hidden text-cyan-800">
+		<button class="block sm:hidden text-cyan-800" on:click={() => {}}>
 			<!-- hero icon outline bars-3 -->
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -55,5 +55,8 @@
 		error enim quo perspiciatis. Maiores sed expedita non et accusantium. Nisi
 		recusandae perspiciatis accusantium cum aperiam incidunt exercitationem
 		natus id?
+		<a href="https://zummon.page/" class="" target="_blank">
+			Made by zummon (Teerapat Anantarattanachai)
+		</a>
 	</p>
 </div>
