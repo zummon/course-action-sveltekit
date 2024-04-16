@@ -9,11 +9,11 @@
 	<a class="flex items-center gap-2" href="/">
 		<img class="w-12 h-12 block" src="/favicon.svg" alt="" />
 		<span
-			class="font-display block text-lg {data.pathname == '/'
+			class="font-bold block text-lg {data.pathname == '/'
 				? 'text-orange-600'
 				: 'text-cyan-600'}"
 		>
-			Studee
+			Home
 		</span>
 	</a>
 	<div class="flex flex-wrap items-center gap-4 lg:gap-6">
@@ -49,14 +49,21 @@
 
 <slot />
 
-<div class="bg-neutral-800">
-	<p class="max-w-lg text-center mx-auto text-gray-100 px-4 py-16 font-serif">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est
-		error enim quo perspiciatis. Maiores sed expedita non et accusantium. Nisi
-		recusandae perspiciatis accusantium cum aperiam incidunt exercitationem
-		natus id?
-		<a href="https://zummon.page/" class="" target="_blank">
-			Made by zummon (Teerapat Anantarattanachai)
-		</a>
-	</p>
+<div class="bg-neutral-800 text-gray-100">
+	<div class="container mx-auto flex flex-wrap justify-between lg:justify-around gap-4 px-4 py-16">
+		<div class="max-w-lg">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est
+			error enim quo perspiciatis. 
+		</div>
+		<div class="max-w-lg">
+			Maiores sed expedita non et accusantium. Nisi
+			recusandae perspiciatis accusantium cum aperiam incidunt exercitationem
+			natus id?
+		</div>
+		<div class="max-w-lg">
+			<a href="https://zummon.page/" class="" target="_blank">
+				Made by zummon (Teerapat Anantarattanachai)
+			</a>
+		</div>
+	</div>
 </div>

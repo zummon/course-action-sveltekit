@@ -10,29 +10,32 @@
 	/>
 </svelte:head>
 
-<div class="" style="background-color: #ADB5B8">
+<div class="" style="">
 	<div
-		class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center min-h-[50vh]"
+		class="grid grid-cols-1 sm:grid-cols-2 items-center min-h-[50vh]"
 	>
-		<div class="p-4 xl:p-8 order-last sm:order-none">
-			<h1 class="font-display text-xl sm:text-3xl mb-4 text-orange-800">
-				Education
-			</h1>
-			<p class="font-semibold md:text-lg mb-4">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sequi
-				fugit unde tempora sit asperiores?
-			</p>
-			<a
-				class="inline-block bg-lime-400 text-cyan-800 px-8 py-3 font-bold text-lg rounded-xl shadow-md"
-				href="/course"
-			>
-				Read
-			</a>
+		<div class="order-last sm:order-none p-4 xl:p-8">
+			<div class="max-w-md ml-auto">
+				<h1 class="font-black text-xl sm:text-3xl xl:text-5xl mb-4 text-orange-800">
+					Education
+				</h1>
+				<p class="font-semibold md:text-lg mb-4">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sequi
+					fugit unde tempora sit asperiores?
+				</p>
+				<a
+					class="inline-block bg-lime-400 text-cyan-800 px-8 py-3 font-bold text-lg rounded-xl shadow-md"
+					href="/course"
+				>
+					Read
+				</a>
+			</div>
 		</div>
-		<div class="md:col-span-2">
+		<div class="overflow-hidden">
+			<!-- https://cdn.leonardo.ai/users/686b8ba4-ad0f-40a5-82ac-0cf838e78534/generations/f2261de5-ade5-44a5-93f0-92e5fd89460d/Default_AbubakarWow_its_a_beautiful_bluewinged_bird_Lets_go_cl_0.jpg -->
 			<img
 				class="sm:min-h-[50vh] w-full object-cover"
-				src="https://cdn.leonardo.ai/users/a394eb6e-4acd-49c3-87c2-8b3c64d9ea10/generations/5ab525ab-4a17-43c6-9231-23423fa19d1f/variations/Default_sticker_with_white_fat_line_artwork_of_tshirt_graphic_1_5ab525ab-4a17-43c6-9231-23423fa19d1f_1.jpg"
+				src="https://i.imgur.com/MbPwr5h.jpeg"
 				alt=""
 			/>
 		</div>
@@ -80,7 +83,7 @@
 	>
 		{#each data.steps as item}
 			<div class="rounded-3xl bg-white p-4">
-				<h3 class="font-display text-xl mb-4 text-cyan-600">{item.headline}</h3>
+				<h3 class="font-black text-xl mb-4 text-cyan-600">{item.headline}</h3>
 				<p class="">
 					{item.paragraph}
 				</p>
@@ -100,7 +103,7 @@
 		/>
 	</div>
 	<div class="">
-		<h3 class="text-lg sm:text-xl mb-4 font-display">
+		<h3 class="text-lg sm:text-xl mb-4 font-black">
 			Lorem ipsum dolor sit amet, consectetur adipisicing.
 		</h3>
 		<p class="md:text-lg mb-4">
@@ -118,7 +121,7 @@
 
 <div class="pb-8 xl:pb-16" style="background-color: #A39C92">
 	<div class="max-w-7xl mx-auto">
-		<h2 class="font-display text-2xl px-4 pt-8 mb-4 text-center">
+		<h2 class="font-black text-2xl px-4 pt-8 mb-4 text-center">
 			Lorem ipsum dolor
 		</h2>
 		<div
@@ -130,7 +133,7 @@
 						? 'bg-gradient-to-b from-lime-800 to-lime-400 text-white'
 						: 'shadow-md'}"
 				>
-					<h3 class="font-display mb-4">
+					<h3 class="font-black mb-4">
 						{item.headline}
 					</h3>
 					<p class="">

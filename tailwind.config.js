@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				display: "'Dela Gothic One', cursive",
+				sans: "'Josefin Sans', sans-serif",
 			},
 		},
 	},
